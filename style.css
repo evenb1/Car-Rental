@@ -1,0 +1,100 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width:100%;
+    font-size: 1.2rem;   
+    justify-content: space-around; 
+    margin: unset;
+}
+nav{
+    background-color: black;
+    height: 70px;
+    justify-content: space-between; 
+    display: flex;
+    
+}
+img{
+    object-fit: cover;
+    width:30px;
+    height:30px;
+    margin: 5px 0 0 -60px;
+}
+body{
+    margin: 0;
+}
+label{
+    color: white;
+    margin: 12px;
+}
+.top{
+    background-color: black;
+    margin: 8px 80px 0 0;
+    width: 450px;
+    height: 30px;
+    border: solid rgb(99, 95, 95) 1px;
+
+}
+
+.hero{
+    background-image: url("car.jpg");
+
+    width: auto;
+    height: 770px;
+    color:aliceblue;
+    margin-top: -20px;
+}
+a{
+    color: white;
+    justify-content: space-around;
+    margin: 10px 40px;;
+    text-decoration: none;
+}
+.dream{
+    
+    width: unset;
+    margin-top: unset;
+    position: absolute;
+    left: 60px;
+    top: 30%;
+
+}
+.find{
+    font-size: 3rem;
+}
+.d{    
+    width:400px;
+    height: 40px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.5);
+    border: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:darkgrey;
+}
+.gallery{
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0 0 0 80px;
+}
+  img{
+   width:180px;
+   height:110px;
+    object-fit: fill;
+justify-content:center;
+    margin: unset;
+    margin:30px;
+  }
+.make{
+    text-align: center;
+    font-size: 3rem;
+  }
+  img:hover{
+    opacity: 0.5;
+    cursor:pointer;
+  }
+  input::placeholder{
+    text-align: center;
+  }
